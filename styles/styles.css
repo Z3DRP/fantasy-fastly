@@ -262,6 +262,28 @@ ul.no-bullets {
     justify-content: space-evenly;
 }
 
+@media screen and (max-width: 80rem) {
+    /* .nav-body {
+        flex-direction: column;
+    } */
+
+    li a {
+        display: none;
+    }
+
+    .container-body {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .card {
+        margin: 1rem;
+
+    }
+}
+
 @keyframes pulse {
     0% {
         font-variation-settings: 'wght' 100;
