@@ -52,7 +52,7 @@
                 <div class="container-body">
                     <!--3 cards side by side-->
                     <!--cards-->
-                    <article class="card">
+                    <article class="card dev">
                         <div class="c-header">
                             <span class="material-symbols-outlined size-48 dark pulse">developer_mode</span>
                             <h1 class="c-header-text">
@@ -64,15 +64,13 @@
                             The edge of the network is an exciting, new frontier, Lets build something amazing.
                         </div>
                         <div class="c-footer">
-                            <button class="btn c-btn">
-                                <a class="btn-link" href="https://www.fastly.com/documentation/developers/">
-                                    <span>Start Building</span>
-                                </a>
+                            <button class="btn c-btn" data-card-id="dev">
+                                Learn More
                             </button>
                         </div>
                     </article>
     
-                    <article class="card">
+                    <article class="card pop-design">
                         <div class="c-header">
                             <span class="material-symbols-outlined size-48 dark pulse">edgesensor_high</span>
                             <h1 class="c-header-text">
@@ -84,15 +82,13 @@
                             Points aroudn the world so you can deliver ontent as close to the user as possible and win against your competitors.
                         </div>
                         <div class="c-footer">
-                            <button class="btn c-btn">
-                                <a class="btn-link" href="https://www.fastly.com/resources/industry-report/ecommerce">
-                                    <span>Learn More</span>
-                                </a>
+                            <button class="btn c-btn" data-card-id="pop-design">
+                                Learn More
                             </button>
                         </div>
                     </article>
                     
-                    <article class="card">
+                    <article class="card security">
                         <div class="c-header">
                             <span class="material-symbols-outlined size-48 dark pulse">shield_locked</span>
                             <h1 class="c-header-text">
@@ -104,10 +100,8 @@
                             becoming a roadblock. This is why we designed our solutions on a resilien, modern platform that simplifies security for you.
                         </div>
                         <div class="c-footer">
-                            <button class="btn c-btn">
-                                <a class="btn-link" href="https://www.fastly.com/products/web-application-api-protection">
-                                    <span>Learn More</span>
-                                </a>
+                            <button class="btn c-btn" data-card-id="security"> 
+                                Learn More
                             </button>
                         </div>
                     </article>
@@ -136,12 +130,24 @@
                     </div>
                 </article>
             </section>
+            <article class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="modal-header">
+                        <h3>Zachary Palmer</h3>
+                    </div>
+                    <div class="modal-body">
+                        This is an about me kind of. 
+                        Software Developer, Bonsi Artist and dedicated father.
+                    </div>
+                </div>
+            </article>
             <footer class="main-footer">
                 <ul class="footer-row no-bullets">
                     <li class="footer-item">
                         <span class="material-symbols-outlined">copyright</span><span>Fastly Copy 2024</span>
                     </li>
-                    <li class="footer-item">
+                    <li class="footer-item fp">
                         <span class="material-symbols-outlined size-40 dark pulse">fingerprint</span><span>Zach Palmer</span>
                     </li>
                     <li class="footer-item">
@@ -152,6 +158,7 @@
                     </li>
                 </ul>
             </footer>
+            <script src="scripts/basic.js"></script>
         </main>
     </body>
 </html>
